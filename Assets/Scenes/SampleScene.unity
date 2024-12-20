@@ -547,7 +547,7 @@ GameObject:
   - component: {fileID: 1146145837}
   - component: {fileID: 1146145839}
   m_Layer: 0
-  m_Name: Player 2 Goal
+  m_Name: Player 1 Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,7 +677,7 @@ GameObject:
   - component: {fileID: 1206496371}
   - component: {fileID: 1206496373}
   m_Layer: 0
-  m_Name: Player 1 Goal
+  m_Name: Player 2 Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1831,10 +1831,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
-  - {fileID: 1146145838}
   - {fileID: 1752657251}
   - {fileID: 1737090309}
   - {fileID: 1206496372}
+  - {fileID: 1146145838}
   - {fileID: 213129206}
   - {fileID: 1499121000}
   - {fileID: 1661499679}
