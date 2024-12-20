@@ -27,12 +27,20 @@ public class GameManager : MonoBehaviour
     {
         Player1Score++;
         Player1Number.GetComponent<TextMeshProUGUI>().text = Player1Score.ToString();
+        ResetPosition();
     }
 
     public void Player2Scored()
     {
         Player2Score++;
         Player2Number.GetComponent<TextMeshProUGUI>().text = Player2Score.ToString();
+        ResetPosition();
+    }
+    private void ResetPosition()
+    {
+        Ball.GetComponent<Ball>().Reset();
+        Player1.GetComponent<WASD_Player1>().Reset();
+        Player2.GetComponent<OL_Player2>().Reset();
     }
 
 

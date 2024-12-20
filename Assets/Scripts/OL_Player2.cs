@@ -7,9 +7,11 @@ public class OL_Player2 : MonoBehaviour
 
     public float forceAmt = 5f;
     public Rigidbody2D rb;
+    public Vector3 startPosition;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        startPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -24,5 +26,10 @@ public class OL_Player2 : MonoBehaviour
         {
             rb.AddForce(Vector2.down * forceAmt);
         }
+    }
+    public void Reset()
+    {
+        rb.velocity = Vector2.zero;
+        transform.position = startPosition;
     }
 }

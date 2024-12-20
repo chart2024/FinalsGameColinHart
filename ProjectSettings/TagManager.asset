@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ball
+  - Player 1
+  - Player1
+  - Player2
   layers:
   - Default
   - TransparentFX
